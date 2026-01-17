@@ -1,9 +1,17 @@
 name: My Custom Action
+
 description: Welcome message
+
 inputs:
   who-to-greet:
     description: Who to greet
     required: true
+    default: Hello
+
+outputs:
+  time:
+    description: Time greeted
+
 runs:
   using: node20
   main: dist/index.js

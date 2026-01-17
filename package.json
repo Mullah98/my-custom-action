@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Mullah98/my-custom-action#readme",
   "dependencies": {
     "@actions/core": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
   }
 }
